@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Document</title>
+
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+    </head>
+
+    <body>
+
+        <img src="" alt="">
+
+        <Form action="" method="get" class="flex-col-cntr">
+        
+            <h1>Yummy Tea</h1>
+            
+            <section id="drinkSection" class="section-border">
+            <h2><span>Drinks</span></h2>
+                
+                <h3>Milk Tea</h3>
+                <div class="flex-col-cntr">
+                    <div>
+                        <input type="checkbox" id="classicMilk" name="classicMilk" value="5.00"> 
+                        <label for="classicMilk"> Classic Milk Tea $5.00 </label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="peachMilk" name="peachMilk" value="5.50"> 
+                        <label for="peachMilk"> Peach Milk Tea $5.50  </label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="srawberryMilk" name="srawberryMilk" value="5.50"> 
+                        <label for="srawberryMilk"> Srawberry Milk Tea $5.50  </label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="mangoMilk" name="mangoMilk" value="5.50"> 
+                        <label for="mangoMilk"> Mango Milk Tea $5.50 </label>
+                    </div>
+                </div>
+                
+                <h3>Fruit Tea</h3>
+                <div class="flex-col-cntr">
+                    <div>
+                        <input type="checkbox" id="mangoTea" name="mangoTea" value="4.00"> 
+                        <label for="mangoTea"> Mango Tea $4.00 </label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="passionTea" name="passionTea" value="4.50"> 
+                        <label for="passionTea"> Passion Fruit Tea $4.50 </label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" id="greenTea" name="greenTea" value="4.50"> 
+                        <label for="greenTea"> Green Tea $4.50 </label>
+                    </div>
+                </div>
+
+                <h3>Hot Drinks</h3>
+                <div class="flex-col-cntr">
+                    
+                    <div>
+                        <input type="checkbox" id="thaiTea" name="thaiTea" value="4.00"> 
+                        <label for="thaiTea"> Thai Tea $4.00 </label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="hotCocoa" name="hotCocoa" value="3.50"> 
+                        <label for="hotCocoa"> Hot Cocoa $3.50 </label>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="foodSection" class="section-border">
+            <h2><span>Food</span></h2>
+
+                <h3>Fries</h3> 
+
+                    <div class="flex-col-cntr">
+                        <div>
+                            <input type="checkbox" id="chsStck" name="chsStck" value="4.00"> 
+                            <label for="chsStck"> Curly Fries $4.00 </label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" id="popChckn" name="popChckn" value="5.00"> 
+                            <label for="popChckn"> Sweet Potato Fries $5.00 </label>
+                        </div>
+                    </div>
+                
+                
+
+                <h3>Other</h3> 
+
+                    <div class="flex-col-cntr">
+                        <div>
+                            <input type="checkbox" id="chsStck" name="chsStck" value="5.00"> 
+                            <label for="chsStck"> Cheese Sticks (5-count) $5.00 </label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="popChckn" name="popChckn" value="5.50"> 
+                            <label for="popChckn"> Popcorn Chicken $5.50 </label>
+                        </div>
+                    </div>
+
+
+            </section>
+
+            <input type="submit" value="submit" id="submitBtn">
+
+            <section id="paymentSection" class="section-border">
+            <h2><span>Payment</span></h2>
+
+                <h3>Your total is:</h3><span id="totalCost"></span>
+                
+            </section>
+
+        </Form>
+
+    </body>
+
+</html>
