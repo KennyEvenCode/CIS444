@@ -1,0 +1,23 @@
+#Main-Content {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+#Main-Content #monday {
+    background-color: pink;
+}
+#Main-Content #tuesday {
+    background-color: rgb(33, 150, 223);
+}
+#Main-Content #wednesday {
+    background-color: red;
+}
+#Main-Content>ol>li{
+    list-style-type: upper-roman;
+}
+#Main-Content>ol>li>ol{
+    list-style: upper-alpha;
+}
+#Main-Content>ol>li>ol>li>ol{
+    list-style:decimal
+}
