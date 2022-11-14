@@ -1,0 +1,192 @@
+<!DOCTYPE html5>
+
+<html lang="en">
+
+    <Head>
+
+        <title>Homework 1</title>
+
+        <!-- <link rel="stylesheet"  type="text/css" href="main.css"> -->
+        <style>
+            table, tr, td {
+                border: 1px solid black;
+            }
+        </style>
+        <meta name="lang"
+        <meta name="Author" lang="en-us" content="Kenneth Campbell">
+        <META name="date" content="2022-09-27">
+
+        <meta name="description" value="Homework 1">
+        <meta name="keywords" value="Homework, 1, 2, Assignment, Question"> 
+
+    </Head>
+
+    <body>
+
+        <h1>Homework 1 Assignment</h1>
+
+        <h2>Question 1</h2>
+
+        <h3>Prompt:</h3>
+
+            <p>Create an HTML5 document to show the table below (3 points):</p>
+            <ol>
+                <li>
+                    Inside the left cell, you will have one &lt;h1&gt; element, one unordered list, and one &lt;em&gt; element
+                </li>
+                <li>
+                    Inside the right cell, there is one “camel.png” picture that you can download from Canvas, setting height = "310" width = "200"
+                </li>
+                <li>
+                    Setting border = "1" in the opening table tag to display the table border
+                </li>
+            </ol>
+         <!--             
+        <h3>Expected Output:</h3>
+            <img src="./q-1-img.JPG" alt="The desired / expected result." height="310"> 
+         -->   
+        <h3>Result:</h3>
+                        
+            <table style="width:100%">
+                <tr>
+                    <td>
+                        <h1>Objectives</h1>
+                        <ul>
+                            <li>to be able to create tables with rows and columns of data </li>
+                            <li>to be able to control the display and formatting of tables </li>
+                            <li>to be able to create and use forms </li>
+                        </ul>
+                        <em>Yea, from the table of my memory I'll wipe away all trivial fond records. William Shakespeare </em>
+                    </td>
+                    <td>
+                        <img src="./camel.png" alt="Camel image not found! Check that 'camel.png' exists in the same directory as the html file you are currently accessing" height="310" width="200">
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <br>
+
+            <h2>Question 2</h2>
+
+        <h3>Prompt:</h3>
+
+            <p>Create an HTML5 document to collect your friends&#39; information</p>
+            <p>Your HTML5 document should contain a form with:</p>
+            <ol>
+                <li>
+                    text fields for a name and e-mail.
+                </li>
+                <li>
+                    checkboxes that allow your friends to choose their hobbies and interests. Include at least SIX choices, for example: dance, cooking, gardening, chess, video game, shopping.
+                </li>
+                <li>
+                    radio buttons that ask them to choose ONE place they would like to travel to. Include at least FOUR choices.
+                </li>
+                <li>
+                    a text area for additional information they want to provide about themselves.
+                </li>
+                <li>
+                    a submit button and a reset button.
+                </li>
+                <li>
+                    use POST to send the information.
+                </li>
+            </ol>
+            
+        <!-- 
+        <h3>Expected Output:</h3>
+
+            <img src="./q-2-img.JPG" alt="The desired / expected result.">
+        --> 
+        
+        <h3>Result:</h3>
+
+        <form action="/action_page.php" method="post">
+
+            <h3>Friend Form</h3>
+
+            <p>Please fill out this form to let us know more about you.</p>
+
+            <label for="form-name">Full Name:</label>
+            <input type="text" id="fname" name="name">
+
+            <br>
+            <br>
+
+            <label for="email">E-mail:</label> 
+            <input type="text" id="form-name" name="email">
+
+            <br>
+            <br>
+
+            <h4>What are your hobbies and interests:</h4>
+
+            <input type="checkbox" id="hobby1" name="hobby1" value="Dancing">
+            <label for="hobby1"> Dancing</label>
+            
+            <input type="checkbox" id="hobby2" name="hobby2" value="Cooking">
+            <label for="hobby2"> Cooking</label>
+            
+            <input type="checkbox" id="hobby3" name="hobby3" value="Gardening">
+            <label for="hobby3"> Gardening</label>
+            <br>
+            <input type="checkbox" id="hobby4" name="hobby4" value="Chess">
+            <label for="hobby4"> Chess</label>
+            
+            <input type="checkbox" id="hobby5" name="hobby5" value="Video Games">
+            <label for="hobby5"> Video Games</label>
+            
+            <input type="checkbox" id="hobby6" name="hobby6" value="Shopping">
+            <label for="hobby6"> Shopping</label>
+
+            <br>
+            <br>
+
+            <h4>If you could travel anywhere in in summer 2023, where would you go? (Choose only one)</h4>
+            
+            <input type="radio" id="destination1" name="destination" value="Mexico">
+            <label for="destination1">Mexico</label>
+
+            <input type="radio" id="destination2" name="destination" value="Australia">
+            <label for="destination2">Australia</label>  
+
+            <input type="radio" id="destination3" name="destination" value="Italy">
+            <label for="destination3">Italy</label>
+
+            <input type="radio" id="destination3" name="destination" value="Japan">
+            <label for="destination3">Japan</label><br>
+
+             
+             
+             
+             
+
+            <br>
+            <br>
+
+            <h4>Please give us additional information about yourself: </h4>
+            <label for="Autobio">Comments</label>
+            <textarea name="" id="Autobio" cols="40" rows="3"></textarea>
+
+            <br>
+            <br>
+            
+            <input type="Submit" value="Submit">
+            <input type="reset" value="Clear">
+            <br>
+
+            
+        </form>
+
+    </body>    
+</html>
+
+
