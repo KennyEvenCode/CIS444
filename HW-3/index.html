@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Homework 3</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+    <body>  
+        <h1>Click to Move the Image!</h1>
+        <div id="container">
+            <img id="image" src="picture.png" />
+        </div>
+        <script>
+            let docImage = document.getElementById("image");
+            document.getElementById("container").addEventListener("click", moveImg, false);
+            function moveImg(event) {
+                docImage.style.left = event.clientX + "px";
+                docImage.style.top = event.clientY + "px";
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+
+ 
