@@ -15,8 +15,6 @@
 
     <body>
 
-        <img src="" alt="">
-
         <Form action="" method="get" class="flex-col-cntr">
         
             <h1>Yummy Tea</h1>
@@ -25,7 +23,7 @@
             <h2><span>Drinks</span></h2>
                 
                 <h3>Milk Tea</h3>
-                <div class="flex-col-cntr">
+                <div class="optionsList">
                     <div>
                         <input type="checkbox" id="classicMilk" name="classicMilk" value="5.00"> 
                         <label for="classicMilk"> Classic Milk Tea $5.00 </label>
@@ -48,7 +46,7 @@
                 </div>
                 
                 <h3>Fruit Tea</h3>
-                <div class="flex-col-cntr">
+                <div class="optionsList">
                     <div>
                         <input type="checkbox" id="mangoTea" name="mangoTea" value="4.00"> 
                         <label for="mangoTea"> Mango Tea $4.00 </label>
@@ -66,7 +64,7 @@
                 </div>
 
                 <h3>Hot Drinks</h3>
-                <div class="flex-col-cntr">
+                <div class="optionsList">
                     
                     <div>
                         <input type="checkbox" id="thaiTea" name="thaiTea" value="4.00"> 
@@ -87,7 +85,7 @@
 
                 <h3>Fries</h3> 
 
-                    <div class="flex-col-cntr">
+                    <div class="optionsList">
                         <div>
                             <input type="checkbox" id="chsStck" name="chsStck" value="4.00"> 
                             <label for="chsStck"> Curly Fries $4.00 </label>
@@ -103,7 +101,7 @@
 
                 <h3>Other</h3> 
 
-                    <div class="flex-col-cntr">
+                    <div class="optionsList">
                         <div>
                             <input type="checkbox" id="chsStck" name="chsStck" value="5.00"> 
                             <label for="chsStck"> Cheese Sticks (5-count) $5.00 </label>
@@ -123,7 +121,10 @@
             <section id="paymentSection" class="section-border">
             <h2><span>Payment</span></h2>
 
-                <h3>Your total is:</h3><span id="totalCost"></span>
+                <div>
+                    <h3>Your total is:</h3> 
+                    <p id="totalCost"></p>
+                </div>
                 
             </section>
 

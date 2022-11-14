@@ -1,16 +1,42 @@
-#paymentSection h3{
+form {
+    /*background-image: ;*/
+    background-color:  rgb(231, 219, 178);
+    max-width: 780px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.optionsList {
+    padding-left: 35%;
+}
+
+#paymentSection h2 , #foodSection h2 , #drinkSection h2 {
+    position: absolute;
+    top: -35px;    
+    left: 10px;
+    width: auto;
+}
+
+#paymentSection h3 {
     color: rgb(175, 25, 25);
+}
+
+#submitBtn {
+    background-color: rgb(175, 25, 25);
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 1.5em;
+    border: none;
+}
+
+section h3 {
+    padding-left: 40px;
 }
 
 .section-border {
     border: 3px solid black;
-}
-
-section {
-    max-width: 600px;
-    width: 80%;
-    margin: 25px;
-    padding: 0px 0px 50px 0px;
 }
 
 .flex-col-cntr {
@@ -19,51 +45,40 @@ section {
     align-items: center;
 }
 
-section h3 {
-    padding-left: 40px;
-}
-
-img {
-    
-}
-
-form {
-    /*background-image: ;*/
-    background-color: aqua;
-    max-width: 700px;
-    width: 80%;
-    margin: auto;
-
-}
-
-#paymentSection h2 , #foodSection h2 , #drinkSection h2 {
-    position: relative;
-    top: -35px;    
-    left: 20px;
-    width: auto;
-}
-
-
 #paymentSection h2 span , #foodSection h2 span , #drinkSection h2 span {
-    background-color: white;
+    background-color: rgb(231, 219, 178);
 }
 
-#paymentSection{
-    
+section {
+    position: relative;
+    max-width: 600px;
+    width: 80%;
+    margin: 25px;
+    padding: 0px 50px 50px 0px;
 }
 
-#foodSection {
+#paymentSection div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#paymentSection {
+    width: auto;
+    min-width: 60%;
+    height: auto;
+    padding: 0px 50px 0px 0px;
 
 }
 
-#drinkSection {
-
+#paymentSection div h3 { 
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
-html, body {
-    min-width: 600px;
-    padding: 0px;
-    margin: 0px;
+#totalCost {
+    width: 100px;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bold;
 }
-
-
