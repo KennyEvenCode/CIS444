@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+      <h1>Decorate Me!</h1>
+
+      <img id="pumpkin" src="pumpkin.jpeg" alt="A Pumpkin"  width="200" height="200"/>
+      <img id="mustache" src="mustache.png" alt="A Mustache" width="100" height= "70"/>
+      <img id="eye" src="eye.png" alt="eye" width="100" height="60"/>
+      
+
+      <script>
+        
+        function moveEyes() { // put on
+          if(document.getElementById("eye").style.top == "210px") {
+            document.getElementById("eye").style.top = "150px";
+            document.getElementById("eye").style.left = "55px";    
+          }
+          else{ // take off
+            document.getElementById("eye").style.top = "210px"; 
+            document.getElementById("eye").style.left = "250px";  
+          }
+        }
+        
+        function moveMustache() { // put on
+          if(document.getElementById("mustache").style.top == "210px"){
+            document.getElementById("mustache").style.top = "185px"; 
+            document.getElementById("mustache").style.left = "55px";    
+          }
+          else{ // take off
+            document.getElementById("mustache").style.top = "210px"; 
+            document.getElementById("mustache").style.left = "400px";  
+          }
+        }
+
+        
+        const eyes = document.getElementById("eye");
+        const mustache = document.getElementById("mustache");
+
+        eyes.style.position = 'absolute';
+        mustache.style.position = 'absolute';
+        
+        eyes.style.top = "210px";
+        eyes.style.left = "250px";
+
+        mustache.style.top = "210px";
+        mustache.style.left = "400px";
+        
+        eyes.addEventListener("click", moveEyes);
+        mustache.addEventListener("click", moveMustache);
+
+      </script>
+
+  </body>
+
+</html>
