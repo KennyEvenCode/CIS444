@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+}
+
+h1 {
+    width: 500px;
+    text-align: center;
+    background: rgb(255, 245, 189);
+}
+.column {
+    flex-direction: column;
+}
+.centerY{
+    justify-content: center;
+}
+.centerX{
+    align-items: center;
+}
+.input {
+    width:100px;
+    height:20px;
+}
