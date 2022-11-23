@@ -20,3 +20,12 @@ h1 {
     width:100px;
     height:20px;
 }
+.good {
+    color: green;
+}
+.bad {
+    color:red;
+}
+.inputHint {
+    font-size: 18pt;
+}
